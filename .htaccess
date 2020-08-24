@@ -37,4 +37,4 @@ RewriteRule .? - [L]
 
 # Rewrite all other queries to the front controller.
 #RewriteRule .? %{ENV:BASE}/app_dev.php [L]
-RewriteRule .? %{ENV:BASE}/app.php [L]
+RewriteRule .? %{ENV:BASE}/web/app.php [L]
